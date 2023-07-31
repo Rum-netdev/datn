@@ -3,6 +3,7 @@
 ### members
 * Nguyễn Đăng Quý
 * Ngô Viết Quang
+* Ngô Phi Tin
 * ...
 
 ### Discord
