@@ -1,13 +1,13 @@
-# Đồ án tốt nghiệp
+# WIKI
 
-### members
-* Nguyễn Đăng Quý
-* Ngô Viết Quang
-* Ngô Phi Tin
-* ...
+## **<mark>Các thông số ổn định</mark>**
 
-### Discord
-https://discord.gg/4hKeNyAa -> Join here
+http://127.0.0.1:8888/
 
-## Description
-### 1 project liên quan đến AI + 3 projects tự implement (Web, Mobile, Desktop app,...)
+tên miền: qqt.com
+
+username: admin
+
+email: admin@qqt.com
+
+pw: 123456
