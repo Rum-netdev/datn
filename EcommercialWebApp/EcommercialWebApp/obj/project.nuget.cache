@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dD2llEF1ualXLRVP8F+z8Sh9xppbwcEVcCrVm7hI6InL7qVOywpAb1KK8Rw37IP/oVe81ubXN9tpE44ipz3XZg==",
+  "dgSpecHash": "JpG0OD+fUST57DQD3gmM9UvlqoXvrmFMnZpUPlwE1OA6mPc2FmoxB3f0tq+seT1QQzglpP3aY+EB99Yk/gUHkg==",
   "success": true,
   "projectFilePath": "E:\\Mine\\University\\datn\\EcommercialWebApp\\EcommercialWebApp\\EcommercialWebApp.csproj",
   "expectedPackageFiles": [
@@ -58,5 +58,12 @@
     "C:\\Users\\catpi\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
     "C:\\Users\\catpi\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file E:\\Mine\\University\\datn\\EcommercialWebApp\\EcommercialWebApp\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

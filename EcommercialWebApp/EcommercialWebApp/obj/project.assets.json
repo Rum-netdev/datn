@@ -987,7 +987,8 @@
         "dependencies": {
           "EcommercialWebApp.Core": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.21",
-          "Microsoft.EntityFrameworkCore": "6.0.21"
+          "Microsoft.EntityFrameworkCore": "6.0.21",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.21"
         },
         "compile": {
           "bin/placeholder/EcommercialWebApp.Data.dll": {}
@@ -2632,5 +2633,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file E:\\Mine\\University\\datn\\EcommercialWebApp\\EcommercialWebApp\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

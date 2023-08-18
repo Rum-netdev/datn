@@ -1,0 +1,17 @@
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp.Data\bin\Debug\net6.0\EcommercialWebApp.Data.deps.json
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp.Data\bin\Debug\net6.0\EcommercialWebApp.Data.runtimeconfig.json
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp.Data\bin\Debug\net6.0\EcommercialWebApp.Data.dll
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp.Data\bin\Debug\net6.0\EcommercialWebApp.Data.pdb
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp.Data\bin\Debug\net6.0\EcommercialWebApp.Core.dll
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp.Data\bin\Debug\net6.0\EcommercialWebApp.Core.pdb
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp.Data\obj\Debug\net6.0\EcommercialWebApp.Data.csproj.AssemblyReference.cache
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp.Data\obj\Debug\net6.0\EcommercialWebApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp.Data\obj\Debug\net6.0\EcommercialWebApp.Data.AssemblyInfoInputs.cache
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp.Data\obj\Debug\net6.0\EcommercialWebApp.Data.AssemblyInfo.cs
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp.Data\obj\Debug\net6.0\EcommercialWebApp.Data.csproj.CoreCompileInputs.cache
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp.Data\obj\Debug\net6.0\EcommercialWebApp.Data.csproj.CopyComplete
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp.Data\obj\Debug\net6.0\EcommercialWebApp.Data.dll
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp.Data\obj\Debug\net6.0\refint\EcommercialWebApp.Data.dll
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp.Data\obj\Debug\net6.0\EcommercialWebApp.Data.pdb
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp.Data\obj\Debug\net6.0\EcommercialWebApp.Data.genruntimeconfig.cache
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp.Data\obj\Debug\net6.0\ref\EcommercialWebApp.Data.dll

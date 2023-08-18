@@ -1,0 +1,12 @@
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp.Core\bin\Debug\net6.0\EcommercialWebApp.Core.deps.json
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp.Core\bin\Debug\net6.0\EcommercialWebApp.Core.dll
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp.Core\bin\Debug\net6.0\EcommercialWebApp.Core.pdb
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp.Core\obj\Debug\net6.0\EcommercialWebApp.Core.csproj.AssemblyReference.cache
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp.Core\obj\Debug\net6.0\EcommercialWebApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp.Core\obj\Debug\net6.0\EcommercialWebApp.Core.AssemblyInfoInputs.cache
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp.Core\obj\Debug\net6.0\EcommercialWebApp.Core.AssemblyInfo.cs
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp.Core\obj\Debug\net6.0\EcommercialWebApp.Core.csproj.CoreCompileInputs.cache
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp.Core\obj\Debug\net6.0\EcommercialWebApp.Core.dll
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp.Core\obj\Debug\net6.0\refint\EcommercialWebApp.Core.dll
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp.Core\obj\Debug\net6.0\EcommercialWebApp.Core.pdb
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp.Core\obj\Debug\net6.0\ref\EcommercialWebApp.Core.dll
