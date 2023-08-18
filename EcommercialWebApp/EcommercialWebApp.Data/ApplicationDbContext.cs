@@ -1,4 +1,4 @@
-﻿using EcommercialWebApp.Data.Models;
+﻿    using EcommercialWebApp.Data.Models;
 using EcommercialWebApp.Data.Models.Commons;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
@@ -41,6 +41,12 @@ namespace EcommercialWebApp.Data
             builder.Entity<IdentityUserToken<int>>().ToTable("UserTokens");
             builder.Entity<IdentityUserLogin<int>>().ToTable("UserLogins");
             #endregion
+        }
+
+        // Configuration for Creating and Updating actions later
+        public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+        {
+            return base.SaveChangesAsync(cancellationToken);
         }
     }
 }
