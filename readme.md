@@ -1,13 +1,21 @@
-# Đồ án tốt nghiệp
+# Các lệnh đã thực hiện
 
-### members
-* Nguyễn Đăng Quý
-* Ngô Viết Quang
-* Ngô Phi Tin
-* ...
+source: [GitHub - typicode/json-server: Get a full fake REST API with zero coding in less than 30 seconds (seriously)](https://github.com/typicode/json-server) 
 
-### Discord
-https://discord.gg/4hKeNyAa -> Join here
+Cài: npm install -g json-server
 
-## Description
-### 1 project liên quan đến AI + 3 projects tự implement (Web, Mobile, Desktop app,...)
+Sử dụng:
+
+```bash
+npx json-server --watch db.json --port 3000
+
+npx json-server --version
+```
+
+
+
+
+
+tham khảo:
+
+[Zero Code REST With json-server - DZone](https://dzone.com/articles/zero-code-rest-with-json-server)
