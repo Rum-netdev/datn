@@ -1,12 +1,9 @@
 ﻿using AutoMapper;
+using AutoMapper.QueryableExtensions;
 using EcommercialWebApp.Data;
 using EcommercialWebApp.Handler.Infrastructure;
 using EcommercialWebApp.Handler.Products.Dtos;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace EcommercialWebApp.Handler.Products.Queries
 {
@@ -26,9 +23,19 @@ namespace EcommercialWebApp.Handler.Products.Queries
             _mapper = mapper;
         }
 
-        public Task<GetAllProductsQueryResult> Handle(GetAllProductsQuery request, CancellationToken cancellationToken)
+        public async Task<GetAllProductsQueryResult> Handle(GetAllProductsQuery request, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            GetAllProductsQueryResult result = new();
+
+            var products = await _db.Products
+                .AsNoTracking()
+                .OrderBy(t => t.CreatedAt)
+                .ProjectTo<ProductViewModel>(_mapper.ConfigurationProvider)
+                .ToListAsync();
+
+            result.Products = products;
+
+            return result;
         }
     }
 

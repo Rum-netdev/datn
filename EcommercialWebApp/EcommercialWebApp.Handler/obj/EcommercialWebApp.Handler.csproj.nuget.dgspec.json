@@ -4,14 +4,14 @@
     "E:\\Mine\\University\\datn\\EcommercialWebApp\\EcommercialWebApp.Handler\\EcommercialWebApp.Handler.csproj": {}
   },
   "projects": {
-    "E:\\Mine\\University\\datn\\EcommercialWebApp\\EcommercialWebApp.Handler\\EcommercialWebApp.Handler.csproj": {
+    "E:\\Mine\\University\\datn\\EcommercialWebApp\\EcommercialWebApp.Core\\EcommercialWebApp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Mine\\University\\datn\\EcommercialWebApp\\EcommercialWebApp.Handler\\EcommercialWebApp.Handler.csproj",
-        "projectName": "EcommercialWebApp.Handler",
-        "projectPath": "E:\\Mine\\University\\datn\\EcommercialWebApp\\EcommercialWebApp.Handler\\EcommercialWebApp.Handler.csproj",
+        "projectUniqueName": "E:\\Mine\\University\\datn\\EcommercialWebApp\\EcommercialWebApp.Core\\EcommercialWebApp.Core.csproj",
+        "projectName": "EcommercialWebApp.Core",
+        "projectPath": "E:\\Mine\\University\\datn\\EcommercialWebApp\\EcommercialWebApp.Core\\EcommercialWebApp.Core.csproj",
         "packagesPath": "C:\\Users\\catpi\\.nuget\\packages\\",
-        "outputPath": "E:\\Mine\\University\\datn\\EcommercialWebApp\\EcommercialWebApp.Handler\\obj\\",
+        "outputPath": "E:\\Mine\\University\\datn\\EcommercialWebApp\\EcommercialWebApp.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,178 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Mine\\University\\datn\\EcommercialWebApp\\EcommercialWebApp.Data\\EcommercialWebApp.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Mine\\University\\datn\\EcommercialWebApp\\EcommercialWebApp.Data\\EcommercialWebApp.Data.csproj",
+        "projectName": "EcommercialWebApp.Data",
+        "projectPath": "E:\\Mine\\University\\datn\\EcommercialWebApp\\EcommercialWebApp.Data\\EcommercialWebApp.Data.csproj",
+        "packagesPath": "C:\\Users\\catpi\\.nuget\\packages\\",
+        "outputPath": "E:\\Mine\\University\\datn\\EcommercialWebApp\\EcommercialWebApp.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\catpi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Mine\\University\\datn\\EcommercialWebApp\\EcommercialWebApp.Core\\EcommercialWebApp.Core.csproj": {
+                "projectPath": "E:\\Mine\\University\\datn\\EcommercialWebApp\\EcommercialWebApp.Core\\EcommercialWebApp.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.21, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Mine\\University\\datn\\EcommercialWebApp\\EcommercialWebApp.Handler\\EcommercialWebApp.Handler.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Mine\\University\\datn\\EcommercialWebApp\\EcommercialWebApp.Handler\\EcommercialWebApp.Handler.csproj",
+        "projectName": "EcommercialWebApp.Handler",
+        "projectPath": "E:\\Mine\\University\\datn\\EcommercialWebApp\\EcommercialWebApp.Handler\\EcommercialWebApp.Handler.csproj",
+        "packagesPath": "C:\\Users\\catpi\\.nuget\\packages\\",
+        "outputPath": "E:\\Mine\\University\\datn\\EcommercialWebApp\\EcommercialWebApp.Handler\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\catpi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Mine\\University\\datn\\EcommercialWebApp\\EcommercialWebApp.Data\\EcommercialWebApp.Data.csproj": {
+                "projectPath": "E:\\Mine\\University\\datn\\EcommercialWebApp\\EcommercialWebApp.Data\\EcommercialWebApp.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

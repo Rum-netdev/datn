@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "3hcCsUm8q5AJM18GarMWxdOX23/cSSRpgTChpNXFDUkNVK087u2XKgyA1XnSTWvkNLAIBKy2o+GLAAY8IrK4MA==",
+  "dgSpecHash": "jNuk1XfxlcwHmMbR4gL0VU1BmkPWF/oCwzmzCf26/Pkw8eFOLj5d7baBj7kx5Ffq6dSudawcSAGC0ToQ/kndoQ==",
   "success": true,
   "projectFilePath": "E:\\Mine\\University\\datn\\EcommercialWebApp\\EcommercialWebApp.Core\\EcommercialWebApp.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\catpi\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\catpi\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\catpi\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\catpi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\catpi\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\catpi\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\catpi\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

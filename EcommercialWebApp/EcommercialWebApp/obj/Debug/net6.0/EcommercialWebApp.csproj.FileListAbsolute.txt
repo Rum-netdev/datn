@@ -80,3 +80,13 @@ E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp\obj\Debug\net6.0\Eco
 E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp\obj\Debug\net6.0\EcommercialWebApp.genruntimeconfig.cache
 E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp\obj\Debug\net6.0\ref\EcommercialWebApp.dll
 E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp\bin\Debug\net6.0\AutoMapper.dll
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp\bin\Debug\net6.0\MediatR.dll
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp\bin\Debug\net6.0\MediatR.Contracts.dll
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp\bin\Debug\net6.0\EcommercialWebApp.Handler.dll
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp\bin\Debug\net6.0\EcommercialWebApp.Handler.pdb
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll

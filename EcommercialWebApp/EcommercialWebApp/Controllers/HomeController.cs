@@ -4,7 +4,9 @@ using System.Diagnostics;
 
 namespace EcommercialWebApp.Controllers
 {
-    public class HomeController : Controller
+    [ApiController]
+    [Route("api/[controller]/[action]")]
+    public class HomeController : BaseController
     {
         private readonly ILogger<HomeController> _logger;
 
@@ -13,20 +15,24 @@ namespace EcommercialWebApp.Controllers
             _logger = logger;
         }
 
+        [HttpGet]
         public IActionResult Index()
         {
-            return View();
+            return Ok();
         }
-
+        
+        [HttpGet]
         public IActionResult Privacy()
         {
-            return View();
+            return Ok();
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        [HttpGet]
+        //[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            //return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return Ok();
         }
     }
 }

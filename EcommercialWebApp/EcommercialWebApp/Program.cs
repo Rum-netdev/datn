@@ -1,6 +1,8 @@
 using EcommercialWebApp.Data;
 using EcommercialWebApp.Data.Authentication;
 using EcommercialWebApp.Data.Models.Commons;
+using EcommercialWebApp.Handler.Infrastructure;
+using EcommercialWebApp.Handler.Mapper;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -48,6 +50,19 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
+builder.Services.AddMediatR(config => config.RegisterServicesFromAssembly(typeof(IBroker).Assembly));
+builder.Services.AddAutoMapper(typeof(MapperProfileLoader).Assembly);
+
+builder.Services.AddTransient<IBroker, Broker>();
+
+builder.Services.AddSwaggerGen(setup =>
+{
+    setup.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
+    {
+        Title = "EcommercialWebAppAPI",
+        Version = "v1"
+    });
+});
 
 builder.Services.AddControllers();
 
@@ -73,9 +88,17 @@ app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
-app.MapRazorPages();
+app.UseSwagger();
+
+//app.MapControllerRoute(
+//    name: "default",
+//    pattern: "{controller=Home}/{action=Index}/{id?}");
+app.MapControllers();
+//app.MapRazorPages();
+
+app.UseSwaggerUI(options =>
+{
+    options.SwaggerEndpoint("/swagger/v1/swagger.json", "EcommercialWebAppAPI v1");
+});
 
 app.Run();

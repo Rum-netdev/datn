@@ -10,3 +10,8 @@ E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp.Handler\obj\Debug\ne
 E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp.Handler\obj\Debug\net6.0\refint\EcommercialWebApp.Handler.dll
 E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp.Handler\obj\Debug\net6.0\EcommercialWebApp.Handler.pdb
 E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp.Handler\obj\Debug\net6.0\ref\EcommercialWebApp.Handler.dll
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp.Handler\bin\Debug\net6.0\EcommercialWebApp.Core.dll
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp.Handler\bin\Debug\net6.0\EcommercialWebApp.Data.dll
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp.Handler\bin\Debug\net6.0\EcommercialWebApp.Data.pdb
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp.Handler\bin\Debug\net6.0\EcommercialWebApp.Core.pdb
+E:\Mine\University\datn\EcommercialWebApp\EcommercialWebApp.Handler\obj\Debug\net6.0\EcommercialWebApp.Handler.csproj.CopyComplete
