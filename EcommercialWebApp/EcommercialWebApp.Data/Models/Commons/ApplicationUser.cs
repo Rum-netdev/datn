@@ -7,6 +7,6 @@ namespace EcommercialWebApp.Data.Models.Commons
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string FullName => FirstName + " " + LastName;
-        public string IdentificationNumber { get; set; }
+        public string? IdentificationNumber { get; set; }
     }
 }

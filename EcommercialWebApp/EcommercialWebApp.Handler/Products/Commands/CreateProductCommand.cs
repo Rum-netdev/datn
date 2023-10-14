@@ -45,6 +45,9 @@ namespace EcommercialWebApp.Handler.Products.Commands
                 Price = request.Price
             };
 
+            if (request.Categories != null && request.Categories.Count() > 0)
+                AssignProductToCategories(product, request.Categories);
+
             _db.Products.Add(product);
             if (await _db.SaveChangesAsync() > 0)
             {
@@ -58,6 +61,28 @@ namespace EcommercialWebApp.Handler.Products.Commands
             }
 
             return result;
+        }
+
+        private void AssignProductToCategories(Product product, IEnumerable<int> categoryIds)
+        {
+            Category category = null;
+
+            foreach (var categoryId in categoryIds)
+            {
+                category = _db.Categories.Where(t => t.Id == categoryId).FirstOrDefault();
+                if (category != null)
+                {
+                    ProductsInCategories relationElement = new ProductsInCategories()
+                    {
+                        Product = product,
+                        Category = category
+                    };
+
+                    _db.ProductsInCategories.Add(relationElement);
+                }
+            }
+
+            _db.SaveChanges();
         }
     }
 

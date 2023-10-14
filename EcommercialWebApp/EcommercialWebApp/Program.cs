@@ -1,5 +1,8 @@
+using EcommercialWebApp.Core.Helpers.Email;
+using EcommercialWebApp.Core.Helpers.Email.Models;
 using EcommercialWebApp.Data;
 using EcommercialWebApp.Data.Authentication;
+using EcommercialWebApp.Data.Helpers;
 using EcommercialWebApp.Data.Models.Commons;
 using EcommercialWebApp.Handler.Infrastructure;
 using EcommercialWebApp.Handler.Mapper;
@@ -26,6 +29,7 @@ builder.Services.AddIdentity<ApplicationUser, ApplicationRole>(options =>
     options.Password.RequiredLength = 6;
     options.Password.RequireDigit = true;
     options.Password.RequireUppercase = true;
+    options.Password.RequireNonAlphanumeric = false;
 
     options.User.RequireUniqueEmail = true;
 })
@@ -34,6 +38,7 @@ builder.Services.AddIdentity<ApplicationUser, ApplicationRole>(options =>
 
 var jwtConfiguration = builder.Configuration.GetSection("JwtConfiguration")
     .Get<JwtConfiguration>();
+
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, options => 
@@ -51,8 +56,14 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     });
 
 builder.Services.AddMediatR(config => config.RegisterServicesFromAssembly(typeof(IBroker).Assembly));
-builder.Services.AddAutoMapper(typeof(MapperProfileLoader).Assembly);
+builder.Services.AddAutoMapper(typeof(IBaseProfileTransient).Assembly);
 
+builder.Services.AddTransient<IEmailSender, EmailSender>();
+
+// Add email configuration for config smtp later
+var emailConfiguration = builder.Configuration.GetSection("EmailConfiguration")
+    .Get<EmailConfiguration>();
+builder.Services.AddSingleton(emailConfiguration);
 builder.Services.AddTransient<IBroker, Broker>();
 
 builder.Services.AddSwaggerGen(setup =>
@@ -100,5 +111,14 @@ app.UseSwaggerUI(options =>
 {
     options.SwaggerEndpoint("/swagger/v1/swagger.json", "EcommercialWebAppAPI v1");
 });
+
+
+var scope = app.Services.CreateScope();
+var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+
+if(context != null)
+{
+    Seed.SeedData(context);
+}
 
 app.Run();

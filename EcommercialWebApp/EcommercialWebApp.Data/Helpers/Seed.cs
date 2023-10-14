@@ -21,6 +21,7 @@ namespace EcommercialWebApp.Data.Helpers
                     db.Roles.Add(new ApplicationRole
                     {
                         Name = role.ToString(),
+                        NormalizedName = role.ToUpper(),
                         ConcurrencyStamp = Guid.NewGuid().ToString()
                     });
                 }

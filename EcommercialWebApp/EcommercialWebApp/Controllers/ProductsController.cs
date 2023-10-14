@@ -41,5 +41,18 @@ namespace EcommercialWebApp.Controllers
 
             return BadRequest(result);
         }
+
+        [HttpGet("{Id?}")]
+        public async Task<IActionResult> GetProductById([FromRoute] GetProductByIdQuery request)
+        {
+            var result = await _broker.Query(request);
+
+            if (result.IsFound)
+            {
+                return Ok(result);
+            }
+
+            return BadRequest(result);
+        }
     }
 }

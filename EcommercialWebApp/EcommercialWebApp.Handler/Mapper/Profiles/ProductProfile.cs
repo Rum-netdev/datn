@@ -4,7 +4,7 @@ using EcommercialWebApp.Handler.Products.Dtos;
 
 namespace EcommercialWebApp.Handler.Mapper.Profiles
 {
-    public class ProductProfile : Profile
+    public class ProductProfile : Profile, IBaseProfileTransient
     {
         public ProductProfile()
         {

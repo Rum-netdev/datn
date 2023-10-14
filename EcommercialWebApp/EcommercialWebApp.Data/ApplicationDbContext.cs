@@ -1,13 +1,8 @@
-﻿    using EcommercialWebApp.Data.Models;
+﻿using EcommercialWebApp.Data.Models;
 using EcommercialWebApp.Data.Models.Commons;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EcommercialWebApp.Data
 {
@@ -27,11 +22,14 @@ namespace EcommercialWebApp.Data
         public DbSet<Category> Categories { get; set; }
         //public DbSet<Order> Orders { get; set; }
         //public DbSet<OrderDetail> OrderDetails { get; set; }
+        public DbSet<ProductsInCategories> ProductsInCategories { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
+
+            builder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
             #region Identity Configuration
             builder.Entity<ApplicationUser>().ToTable("Users");
             builder.Entity<ApplicationRole>().ToTable("Roles");

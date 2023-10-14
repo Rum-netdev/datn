@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcommercialWebApp", "EcommercialWebApp\EcommercialWebApp.csproj", "{3876133B-D7BF-4F94-B46F-59C2D51A85E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EcommercialWebApp", "EcommercialWebApp\EcommercialWebApp.csproj", "{3876133B-D7BF-4F94-B46F-59C2D51A85E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcommercialWebApp.Core", "EcommercialWebApp.Core\EcommercialWebApp.Core.csproj", "{889A3851-739D-4A20-B525-6A547CB44E1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EcommercialWebApp.Core", "EcommercialWebApp.Core\EcommercialWebApp.Core.csproj", "{889A3851-739D-4A20-B525-6A547CB44E1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcommercialWebApp.Handler", "EcommercialWebApp.Handler\EcommercialWebApp.Handler.csproj", "{15B484F6-4EB3-4B27-9275-FB9E15A36AB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EcommercialWebApp.Handler", "EcommercialWebApp.Handler\EcommercialWebApp.Handler.csproj", "{15B484F6-4EB3-4B27-9275-FB9E15A36AB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcommercialWebApp.Data", "EcommercialWebApp.Data\EcommercialWebApp.Data.csproj", "{4F148AD9-6CB3-4856-960A-7C0E6D883441}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EcommercialWebApp.Data", "EcommercialWebApp.Data\EcommercialWebApp.Data.csproj", "{4F148AD9-6CB3-4856-960A-7C0E6D883441}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcommercialWebApp.Test", "EcommercialWebApp.Test\EcommercialWebApp.Test.csproj", "{3D93578C-B264-4A0E-82CD-24E6594CE2A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{4F148AD9-6CB3-4856-960A-7C0E6D883441}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F148AD9-6CB3-4856-960A-7C0E6D883441}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F148AD9-6CB3-4856-960A-7C0E6D883441}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D93578C-B264-4A0E-82CD-24E6594CE2A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D93578C-B264-4A0E-82CD-24E6594CE2A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D93578C-B264-4A0E-82CD-24E6594CE2A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D93578C-B264-4A0E-82CD-24E6594CE2A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

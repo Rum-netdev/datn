@@ -1,4 +1,5 @@
 ﻿using EcommercialWebApp.Handler.Categories.Commands;
+using EcommercialWebApp.Handler.Categories.Queries;
 using EcommercialWebApp.Handler.Infrastructure;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -19,12 +20,12 @@ namespace EcommercialWebApp.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAllCategories()
         {
-            return Ok();
+            var categories = await _broker.Query(new GetAllCategoriesQuery());
+            return Ok(categories);
         }
 
 
         [HttpPost]
-        [Authorize]
         public async Task<IActionResult> CreateCategory(CreateCategoryCommand request)
         {
             var result = await _broker.Command(request);
